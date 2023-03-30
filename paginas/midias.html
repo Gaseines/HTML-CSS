@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=3, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Mídias</title>
+</head>
+<body>
+    <a href="../index.html">VOLTAR</a>
+    <h1>Mídias</h1>
+    <h2>Imagem Dinamica</h2>
+    <p>Testar tamanho das imagens</p>
+
+    <div>
+        <picture> <!--Sempre colocar tamanhos na ordem-->
+            <source media="(max-width: 750px)" srcset="../imagens/imagem-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="../imagens/imagem-m.png" type="image/png">
+            <img src="../imagens/imagem-g.png" alt="imagem flexivel">
+        </picture>
+    </div>
+    <h2>Audios</h2><!--formatos de audios compatives com navegadores MP3 WAV OGG-->
+    <p>reprodução de audios</p>
+    <div>
+        <audio src="midia/musica.mp3" controls></audio>
+    </div>
+    <div>
+        <audio controls>
+            <source src="midia/musica.mp3" type="audio/mpeg">
+            <source src="midia/musica.wav" type="audio/wav"><!--Wav é muito pesado...-->
+            <source src="midia/musica.ogg" type="audio/ogg">
+            <p>infelizmente seu navegador nao é compativel com os formatos de audio</p>
+        </audio>
+    </div>
+    <h2>Vídeos</h2> <!--Formatos de videos aceitos MP4 WEBM OGV-->
+    <P><a href="https://handbrake.fr" target="_blank" rel="external">Link para baixar editor de vídeo</a></P>
+    <h3>inserindo videos hospedados localmente</h3>
+    <div>
+        <video src="../midia/video.mp4" height="315" poster="" controls loop></video>
+    </div><!--mesmo esquema de audios-->
+    <h3>Vídeo externo incorporado</h3>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zzmA4BteQ3s" title="YouTube video player"
+            frameborder="0"
+            allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+
+    <a href="index.html">VOLTAR</a>
+</body>
+</html>

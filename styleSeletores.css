@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/*  Em HTML id = CSS #
+    Em HTML class = CSS .
+*/
+
+body{
+    background-color: #9798E1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #22235C;
+}
+h1#principal{ /*Só pode ter um id na mesma pagina*/
+    text-align: center;
+    color: white;
+    background-color: #3E40A8;
+}
+h2{
+    color: #5053DB
+}
+.basico{
+    color: rgb(120, 199, 120);
+}
+.avancado{
+    color: rgb(233, 94, 94);
+}
+/*PSEUDO-CLASSES*/
+.aviso{
+    font-weight: bold;
+
+}
+.d1{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+}
+.d1:hover{
+    background-color: yellow;
+}
+.escondido{
+    text-align: center;
+    background-color: #9798E1;
+    height: 100px;
+    width: 100px;
+    border: 0px;
+}
+.escondido:hover{
+    color: red;
+}
+.escondido > p {
+    display: none;
+}
+.escondido:hover > p{
+    display: block;
+    background-color: red;
+    color: black;
+    width: 100px;
+}
+/*Personalizando Links*/
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link:visited{ /*ja visitado*/
+    color: white;
+}
+.link:hover{ /*mouse por cima*/
+    color: black;
+    text-decoration: underline;
+}
+.link:active{/*Clicado*/
+    color: red;
+    text-decoration: underline;
+}
+/*Pseudo-elemento*/
+.link::after{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: lightgray;
+}
+.especial::before{
+    content: '⇒';
+}
+.especial::after{
+    content: '⇐';
+}

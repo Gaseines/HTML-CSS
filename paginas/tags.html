@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: #C26FF7;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: #7453B8;
+            color: white;
+            padding: 10px;
+            margin: 10px 20px 1px 20px;
+            border-radius: 5px;
+        }
+        header > h1{
+            text-align: center;
+        }
+        nav{
+            padding: 5px;
+            background-color: #D370E0;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+        }
+        nav > a{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        section{
+            margin: 10px 20px 1px 20px;
+            border-radius: 5px 15px;
+            box-shadow: 1px 1px 8px #7453B8;
+        }
+        .noticias{
+            background-color: white;
+        }
+        article{
+            padding: 10px;
+        }
+        article > h2{
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        footer > p{
+            padding: 4px;
+        }
+        .voltar{
+            color: white;
+            text-decoration: none;
+            border: 1px solid white;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .voltar:hover{
+            text-decoration: underline;
+            background-color: black;
+
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <a class="voltar" href="../index.html">VOLTAR</a>
+        <h1>Titulo do Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section class="noticias">
+            <article>
+                <h2>Noticias sobre Carros</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laudantium obcaecati mollitia aliquid maxime, doloribus saepe deleniti nihil assumenda nam repudiandae reprehenderit molestiae explicabo optio, commodi ad illo aut cum.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Criado por Gabriel Seidel Nunes</p>
+    </footer>
+</body>
+</html>
