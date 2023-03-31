@@ -34,6 +34,13 @@ a {
     border-radius: 10px;
     background-color: blue;
 }
+.modulo01:hover{
+    background-color: #5959f7;
+}
+.modulo01:active{
+    background-color: #5959f7;
+    box-shadow: none;
+}
 .modulo02{
     margin: auto;
     text-align: center;
@@ -41,18 +48,28 @@ a {
     border-radius: 10px;
     background-color: red;
 }
-.modulo01:hover{
-    background-color: #5959f7;
-}
+
 .modulo02:hover{
     background-color: #f55c5c;
 }
-.modulo01:active{
-    background-color: #5959f7;
-    box-shadow: none;
-}
+
 .modulo02:active{
     background-color: #f55c5c;
     box-shadow: none;
 }
+.modulo03{
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 2px rgba(75, 219, 8, 0.61);
+    border-radius: 10px;
+    background-color: green;
+}
 
+.modulo03:hover{
+    background-color: #60c247;
+}
+
+.modulo03:active{
+    background-color: #60c247;
+    box-shadow: none;
+}
