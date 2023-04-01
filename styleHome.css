@@ -60,16 +60,16 @@ a {
 .modulo03{
     margin: auto;
     text-align: center;
-    box-shadow: 5px 5px 2px rgba(75, 219, 8, 0.61);
+    box-shadow: 5px 5px 2px #2f8a059c;
     border-radius: 10px;
     background-color: green;
 }
 
 .modulo03:hover{
-    background-color: #60c247;
+    background-color: #52a83c;
 }
 
 .modulo03:active{
-    background-color: #60c247;
+    background-color: #52a83c;
     box-shadow: none;
 }
