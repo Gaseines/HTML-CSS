@@ -16,15 +16,17 @@ h2 {
     border-radius: 5px;
     padding: 5px;
     
+    width: 150px;
     
 }
 a {
+    text-align: center;
     color: white;
     width: 150px;
     margin: auto;
     margin-top: 20px;
     display: block;
-    text-decoration: solid;
+    text-decoration: none;
 }
 .modulo01{
     color: white;
