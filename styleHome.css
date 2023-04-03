@@ -15,7 +15,6 @@ h1 {
 h2 {
     border-radius: 5px;
     padding: 5px;
-    
     width: 150px;
     
 }
@@ -73,5 +72,22 @@ a {
 
 .modulo03:active{
     background-color: #52a83c;
+    box-shadow: none;
+}
+
+.modulo04{
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 2px #55058a9c;
+    border-radius: 10px;
+    background-color: purple;
+}
+
+.modulo04:hover{
+    background-color: #6e3ca8;
+}
+
+.modulo04:active{
+    background-color: #893ca8;
     box-shadow: none;
 }
