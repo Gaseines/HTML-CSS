@@ -11,83 +11,40 @@ h1 {
     color: white;
     text-align: center;
     
-}
-h2 {
-    border-radius: 5px;
-    padding: 5px;
-    width: 150px;
     
 }
-a {
-    text-align: center;
-    color: white;
-    width: 150px;
-    margin: auto;
-    margin-top: 20px;
-    display: block;
+a{
     text-decoration: none;
 }
-.modulo01{
-    color: white;
-    margin: auto;
-    text-align: center;
-    box-shadow: 5px 5px 2px rgba(8, 29, 219, 0.61);
-    border-radius: 10px;
+h1#mod1{
     background-color: blue;
+    margin: 25px;
 }
-.modulo01:hover{
-    background-color: #5959f7;
+h1#mod1:hover{
+    background-color: rgb(7, 7, 180);
+    transform: translate(-5px,-5px);
 }
-.modulo01:active{
-    background-color: #5959f7;
-    box-shadow: none;
-}
-.modulo02{
-    margin: auto;
-    text-align: center;
-    box-shadow: 5px 5px 2px rgba(219, 8, 8, 0.61);
-    border-radius: 10px;
+h1#mod2{
     background-color: red;
+    margin: 25px;
 }
-
-.modulo02:hover{
-    background-color: #f55c5c;
+h1#mod2:hover{
+    background-color: rgb(180, 7, 7);
+    transform: translate(-5px,-5px);
 }
-
-.modulo02:active{
-    background-color: #f55c5c;
-    box-shadow: none;
-}
-.modulo03{
-    margin: auto;
-    text-align: center;
-    box-shadow: 5px 5px 2px #2f8a059c;
-    border-radius: 10px;
+h1#mod3{
     background-color: green;
+    margin: 25px;
 }
-
-.modulo03:hover{
-    background-color: #52a83c;
+h1#mod3:hover{
+    background-color: rgb(4, 100, 4);
+    transform: translate(-5px,-5px);
 }
-
-.modulo03:active{
-    background-color: #52a83c;
-    box-shadow: none;
-}
-
-.modulo04{
-    margin: auto;
-    text-align: center;
-    box-shadow: 5px 5px 2px #55058a9c;
-    border-radius: 10px;
+h1#mod4{
     background-color: purple;
+    margin: 25px;
 }
-
-.modulo04:hover{
-    background-color: #6e3ca8;
-}
-
-.modulo04:active{
-    background-color: #893ca8;
-    box-shadow: none;
+h1#mod4:hover{
+    background-color: rgb(80, 0, 80);
+    transform: translate(-5px,-5px);
 }
