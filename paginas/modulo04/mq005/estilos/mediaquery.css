@@ -10,4 +10,7 @@
     menu li{
         display: inline-block;
     }
+    main{
+        width: 768px;
+    }
 }
