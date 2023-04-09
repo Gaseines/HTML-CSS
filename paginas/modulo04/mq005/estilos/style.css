@@ -65,3 +65,22 @@ article p {
     text-align: justify;
     text-indent: 20px;
 }
+article#art01{
+    display: block;
+}
+article#art02{
+    background-color: aqua;
+    display: none;
+}
+article#art05{
+    background-color: lightcoral;
+    display: none;
+}
+article#art04{
+    background-color: lightgreen;
+    display: none;
+}
+article#art03{
+    background-color: rgb(230, 230, 113);
+    display: none;
+}
