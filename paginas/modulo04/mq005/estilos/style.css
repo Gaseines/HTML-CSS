@@ -46,7 +46,7 @@ menu a{
     border: 1px solid grey;
 }
 menu a:hover{
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(109, 108, 108);
 }
 main{
     width: 90vw;
